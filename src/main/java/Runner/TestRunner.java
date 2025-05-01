@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "D:\\Automation Workspace\\CucumberJava\\src\\main\\java\\Features\\apitesting.feature",
+		features = "C:\\Users\\Mayank Shrivastav\\git\\repository\\CucumberJava\\src\\main\\java\\Features\\Orange.feature",
 		glue = "stepDefinations",
 		plugin = {"pretty", "html:target/cucumber-report.html"},
 		monochrome = true,
